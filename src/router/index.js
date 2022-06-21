@@ -8,23 +8,23 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/Satournow',
+    path: '',
     name: 'home',
     component: HomeView
   },
   {
-    path: '/Satournow/tours',
+    path: '/tours',
     name: 'tours',
     component: ToursView
   },
   {
-    path: '/Satournow/users',
+    path: '/users',
     name: 'userView',
     component: UserView,
     meta: { authRequired: true }
   },
   {
-    path: "/Satournow/:catchAll(.*)",
+    path: "/:catchAll(.*)",
     name: 'ErrorView',
     component: () => import('../views/ErrorView.vue')
   },
@@ -45,7 +45,7 @@ router.beforeEach((to, from, next) => {
   if (currentUser && authRequired) {
     next()
   } else if (!currentUser && authRequired) {
-    next("/Satournow/ErrorView")
+    next("/ErrorView")
   }
   else if (currentUser && !authRequired) {
     next()

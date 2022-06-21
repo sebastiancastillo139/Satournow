@@ -54,7 +54,7 @@
           >
             El tour ha sido agregado a tu favoritos. Para ver la lista completa
             haz
-            <router-link to="/Satournow/users" class="alert-link">click aquí</router-link>
+            <router-link to="/users" class="alert-link">click aquí</router-link>
           </b-alert>
         </div>
         <div class="card-body">

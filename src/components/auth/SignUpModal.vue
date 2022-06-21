@@ -125,7 +125,7 @@ export default {
             userLastName: lastName,
             user_email: email,
           }),
-            this.$router.push("/Satournow/tours");
+            this.$router.push("/tours");
         } else {
           console.log("Ingrese correo válido");
           this.validEmail = false;

@@ -9,14 +9,14 @@
           fluid
         />
       </a>
-      <b-navbar-brand class="mx-4" to="/Satournow">SA-TOUR-NOW!</b-navbar-brand>
+      <b-navbar-brand class="mx-4" to="/">SA-TOUR-NOW!</b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse" class="toggle_menu m-3"></b-navbar-toggle>
 
       <b-collapse class="navbar-nav m-0" id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <b-nav-item to="/Satournow/tours">Tours Disponibles</b-nav-item>
-          <b-nav-item to="/Satournow/users">Menú de Turistas</b-nav-item>
+          <b-nav-item to="/tours">Tours Disponibles</b-nav-item>
+          <b-nav-item to="/users">Menú de Turistas</b-nav-item>
         </b-navbar-nav>
 
         <!-- Right aligned nav items -->

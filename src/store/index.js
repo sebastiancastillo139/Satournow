@@ -324,7 +324,7 @@ export default new Vuex.Store({
         const { email, password } = this.state.user;
         const auth = getAuth();
         await signInWithEmailAndPassword(auth, email, password);
-        router.push("/Satournow/users");
+        router.push("/users");
         context.commit("mutateUsername", "")
         context.commit("mutatePassword", "")
       } catch (error) {

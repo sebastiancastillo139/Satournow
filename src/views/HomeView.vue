@@ -20,7 +20,7 @@
         <h2 class="title">NUESTROS TOURS DESTACADOS</h2>
         <HomeTour :listTours="getHighlightedTours"/>
         <div class="text-center">
-          <b-button class="btn_tours" to="/Satournow/tours">Ver todos los tours</b-button>
+          <b-button class="btn_tours" to="/tours">Ver todos los tours</b-button>
         </div>
         
       </b-container>
